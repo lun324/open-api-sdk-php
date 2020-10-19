@@ -33,6 +33,7 @@ $defaultOpenApiClient = new DefaultOpenApiClient($apiGateway, $appKey, $appSecre
 // 直充下单接口
 $request = new InputDirectOrderDto();
 $request->customerOrderNo = '20191230142306472' . time();
+$request->customerPrice = 1;
 $request->productId = 10000585;
 $request->buyNum = 1;
 $request->chargeAccount = '888888';

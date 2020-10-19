@@ -16,6 +16,12 @@ class InputDirectOrderDto implements InputInterface
     public $customerOrderNo;
 
     /**
+     * 外部销售价
+     * @var
+     */
+    public $customerPrice;
+
+    /**
      * 商品Id
      * @var
      */
