@@ -99,6 +99,7 @@ class InputDirectOrderDto implements InputInterface
     {
         return json_encode([
             'customer_order_no' => $this->customerOrderNo,
+            'customer_price' => $this->customerPrice,
             'product_id' => $this->productId,
             'buy_num' => $this->buyNum,
             'charge_account' => $this->chargeAccount,
